@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Receitas Vandeco</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">VCM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="receitas.html">Receitas</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- modal do brisket -->
+    <div class="modal fade" id="briket-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Brisket</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h5>
+                Ingredientes
+              </h5>
+              <ul>
+                <li>1 brisket de aproximadamente 3-4 kg</li>
+                <li>Sal grosso</li>
+                <li>Pimenta preta moída</li>
+                <li>Paprica defumada (opcional)</li>
+                <li>Molho de churrasco (opcional)</li>
+                <li>Madeira para defumar (como carvalho, nogueira ou mesquite)</li>
+              </ul>
+            <hr/>
+              <h5>
+                Instruções:
+                </h5>
+                <ol>
+                    <li>
+                        <h6>Preparação do Brisket:</h6>
+                        <ul>
+                            <li>Se o brisket estiver muito grosso em algumas partes, você pode querer aparar um pouco de gordura, mas deixe uma camada fina para manter a umidade durante o cozimento.</li>
+                            <li>Tempere o brisket generosamente com sal grosso, pimenta preta moída e, se desejar, paprica defumada. Massageie os temperos na carne para garantir uma distribuição uniforme. Deixe o brisket descansar em temperatura ambiente por cerca de 1 hora para absorver os temperos.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Preparação do Fogo:</h6>
+                        <ul>
+                            <li>Prepare o seu equipamento para defumar. Se estiver usando um smoker, aqueça-o a uma temperatura de cerca de 110-120°C.</li>
+                            <li>Adicione a madeira escolhida (nogueira, carvalho, mesquite) para gerar fumaça durante o cozimento.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Defumação do Brisket:</h6>
+                        <ul>
+                            <li>Coloque o brisket no smoker, com o lado da gordura para cima.</li>
+                            <li>Deixe o brisket defumar lentamente por várias horas, regando ocasionalmente com molho de churrasco, se desejar. O tempo de cozimento pode variar, mas geralmente leva de 10 a 12 horas para um brisket de 3-4 kg atingir a maciez desejada.</li>
+                            <li>Durante o cozimento, é importante manter a temperatura do smoker estável e controlar a quantidade de fumaça para evitar que o brisket fique excessivamente defumado.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Verificação de Prontidão:</h6>
+                        <ul>
+                            <li>O brisket estará pronto quando atingir uma temperatura interna de cerca de 93-95°C. Use um termômetro de carne para verificar a temperatura em várias partes do brisket, garantindo que esteja cozido de maneira uniforme.</li>
+                            <li>Quando estiver pronto, retire o brisket do smoker e deixe descansar por cerca de 30 minutos antes de fatiar.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Servindo o Brisket:</h6>
+                        <ul>
+                            <li>Fatie o brisket contra o grão em fatias grossas e sirva com molho de churrasco, pão de milho, ou acompanhamentos de sua preferência.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal da lasanha -->
+      <div class="modal fade" id="Lasanha-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Lasanha</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h5>
+                Ingredientes
+              </h5>
+              <ul>
+                <li>500g de massa para lasanha (pré-cozida, se necessário)</li>
+                <li>500g de carne moída (pode ser carne de boi, frango, porco, ou uma mistura)</li>
+                <li>1 cebola média, picada</li>
+                <li>2 dentes de alho, picados</li>
+                <li>Sal e pimenta a gosto</li>
+                <li>Azeite de oliva</li>
+                <li>500ml de molho bechamel (branco)</li>
+                <li>300g de queijo muçarela ralado</li>
+                <li>100g de queijo parmesão ralado</li>
+              </ul>
+            <hr/>
+              <h5>
+                Instruções:
+                </h5>
+                <ol>
+                    <li>
+                        <h6>Preparação do Molho de Carne:</h6>
+                        <ul>
+                            <li>Em uma panela grande, aqueça um pouco de azeite de oliva em fogo médio.</li>
+                            <li>Adicione a cebola picada e o alho picado, refogando até que fiquem macios e levemente dourados.</li>
+                            <li>Acrescente a carne moída à panela e cozinhe até dourar, mexendo ocasionalmente para quebrar os pedaços maiores.</li>
+                            <li>Tempere a carne com sal e pimenta a gosto.</li>
+                            <li>Quando a carne estiver cozida, adicione o molho de tomate à panela e deixe cozinhando em fogo baixo por cerca de 15-20 minutos, para que os sabores se misturem bem. Reserve./li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Montagem da Lasanha:</h6>
+                        <ul>
+                            <li>Pré-aqueça o forno a 180°C.</li>
+                            <li>Em uma forma retangular grande, espalhe uma camada fina de molho de carne no fundo da forma.</li>
+                            <li>Coloque uma camada de massa para lasanha sobre o molho de carne.</li>
+                            <li>Espalhe uma camada de molho bechamel sobre a massa.</li>
+                            <li>Adicione uma camada de queijo muçarela ralado sobre o molho bechamel.</li>
+                            <li>Repita as camadas de massa, molho de carne, molho bechamel e queijo muçarela até que todos os ingredientes acabem, terminando com uma camada de molho bechamel por cima.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Finalização e Assamento:</h6>
+                        <ul>
+                            <li>Polvilhe o queijo parmesão ralado sobre a última camada de molho bechamel.</li>
+                            <li>Cubra a forma com papel alumínio e leve ao forno pré-aquecido por cerca de 30 minutos.</li>
+                            <li>Retire o papel alumínio e deixe a lasanha assar por mais 15-20 minutos, ou até que o queijo esteja dourado e borbulhante.</li>
+                            <li>Retire a lasanha do forno e deixe descansar por alguns minutos antes de cortar e servir.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- modal carbonara -->
+      <div class="modal fade" id="carbonara-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Carbonara</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h5>
+                Ingredientes
+              </h5>
+              <ul>
+                <li>400g de spaghetti</li>
+                <li>200g de pancetta ou guanciale, cortados em cubos pequenos</li>
+                <li>4 gemas de ovo</li>
+                <li>100g de queijo Pecorino Romano ou Parmesão, ralado</li>
+                <li>Pimenta preta moída na hora</li>
+                <li>Sal (opcional, dependendo da salinidade do queijo e da pancetta)</li>
+              </ul>
+            <hr/>
+              <h5>
+                Instruções:
+                </h5>
+                <ol>
+                    <li>
+                        <h6>Preparação da Massa:</h6>
+                        <ul>
+                            <li>Em uma panela grande, leve água salgada para ferver. Cozinhe o spaghetti de acordo com as instruções da embalagem até que esteja al dente. Reserve cerca de 1 xícara da água do cozimento da massa antes de escorrer.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Preparação da Pancetta ou Guanciale:</h6>
+                        <ul>
+                            <li>Enquanto a massa cozinha, em uma frigideira grande, doure a pancetta ou guanciale em fogo médio até que fique crocante e dourada. Retire do fogo e reserve.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Preparação do Molho:</h6>
+                        <ul>
+                            <li>
+                                Em uma tigela grande, misture as gemas de ovo, o queijo ralado e uma generosa quantidade de pimenta preta moída. Misture bem até ficar homogêneo.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Montagem Final:</h6>
+                        <ul>
+                            <li>
+                                Quando o spaghetti estiver pronto, escorra, reservando um pouco da água do cozimento.
+                            </li>
+                            <li>Adicione imediatamente o spaghetti à frigideira com a pancetta ou guanciale quente. Misture bem para que a massa fique revestida com a gordura da pancetta.</li>
+                            <li>Retire a frigideira do fogo e adicione a mistura de gemas e queijo, mexendo vigorosamente para que os ovos cozinhem com o calor residual da massa. Se necessário, adicione um pouco da água do cozimento da massa para ajudar a criar uma textura cremosa.</li>
+                            <li>Continue mexendo até que o molho engrosse e envolva o spaghetti de maneira uniforme.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- modal rocambole -->
+      <div class="modal fade" id="rocambole-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Rocambole</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h5>
+                Ingredientes
+              </h5>
+              <ul>
+                <li>4 ovos grandes</li>
+                <li>1 xícara de açúcar</li>
+                <li>1 xícara de farinha de trigo</li>
+                <li>1 colher de chá de fermento em pó</li>
+                <li>1 colher de chá de essência de baunilha</li>
+                <li>Recheio a gosto (geleia, doce de leite, creme de chocolate, etc.)</li>
+                <li>Açúcar de confeiteiro (para decorar)</li>
+              </ul>
+            <hr/>
+              <h5>
+                Instruções:
+                </h5>
+                <ol>
+                    <li>
+                        <h6>Preparação da Massa:</h6>
+                        <ul>
+                            <li>Pré-aqueça o forno a 180°C e unte uma assadeira retangular com papel manteiga.</li>
+                            <li>Em uma tigela grande, bata os ovos e o açúcar com uma batedeira elétrica até obter uma mistura fofa e volumosa. Isso pode levar cerca de 5 minutos.</li>
+                            <li>Adicione a essência de baunilha e misture bem.</li>
+                            <li>Peneire a farinha e o fermento sobre a mistura de ovos e açúcar e misture delicadamente com uma espátula até que esteja bem incorporado.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Assar a Massa:</h6>
+                        <ul>
+                            <li>Despeje a massa na assadeira preparada e espalhe uniformemente com uma espátula.</li>
+                            <li>Leve ao forno pré-aquecido e asse por cerca de 10-12 minutos, ou até que a massa esteja dourada e firme ao toque.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h6>Montagem do Rocambole:</h6>
+                        <ul>
+                            <li>Retire a massa do forno e vire-a sobre um pano de prato limpo e úmido. Remova delicadamente o papel manteiga.</li>
+                            <li>Espalhe o recheio escolhido sobre a massa assada, deixando uma borda livre em todos os lados.</li>
+                            <li>Com a ajuda do pano de prato, comece a enrolar a massa cuidadosamente, começando pelo lado mais curto. Use o pano para ajudar a enrolar firmemente, formando um rolo.</li>
+                            <li>Transfira o rocambole para um prato de servir e polvilhe com açúcar de confeiteiro para decorar.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="card my-3" style="width: 700px;">
+                <img src="images/brisket.webp" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Brisket</h5>
+                    <p class="card-text">O brisket é conhecido por ser uma carne bastante saborosa e suculenta, mas
+                        requer um preparo lento e cuidadoso para ficar macio e cheio de sabor. Aqui está uma receita
+                        básica para fazer brisket:</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#briket-modal">
+                            Continuar lendo
+                        </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="card my-3" style="width: 700px;">
+                <img src="images/Lasanha.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lasanha</h5>
+                    <p class="card-text">
+                        A lasanha é um prato italiano clássico, composto por camadas de massa intercaladas com molho de carne, molho branco (bechamel) e queijo, assado até ficar dourado e borbulhante. É um prato reconfortante e versátil, podendo ser adaptado com diferentes tipos de recheios e ingredientes.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Lasanha-modal">
+                        Continuar lendo
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="card my-3" style="width: 700px;">
+                <img src="images/Carbonara.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Carbonara</h5>
+                    <p class="card-text">O spaghetti alla carbonara é uma deliciosa massa italiana preparada com spaghetti (ou outra massa longa), ovos, queijo (geralmente queijo Pecorino Romano ou Parmesão), pancetta ou guanciale (tipos de bacon italiano) e pimenta preta. A carbonara é conhecida por sua textura cremosa e sabor rico, com a combinação perfeita de queijo derretido e pancetta crocante envolvendo cada fio de massa.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carbonara-modal">
+                        Continuar lendo
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="card my-3" style="width: 700px;">
+                <img src="images/rocambole.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rocambole</h5>
+                    <p class="card-text">O rocambole é frequentemente servido como sobremesa, sendo recheado com geleias, cremes, frutas frescas, chocolate, ou até mesmo sorvete. No entanto, também pode ser preparado como um prato salgado, com recheios como queijos, presuntos, vegetais, e molhos diversos.</p>
+                    
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rocambole-modal">
+                        Continuar lendo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
